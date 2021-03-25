@@ -1,0 +1,29 @@
+.benefits {
+  display: flex;
+}
+
+.benefits__container {
+  padding: 0px 80px;
+}
+
+.benefits__item {
+  flex: 1;
+  padding: 0 3%;
+  position: relative;
+}
+.benefits__item:before {
+  content: url("./images/decor/Shape.png");
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  transform: translate(50%);
+}
+.benefits__item:first-child {
+  padding-left: 0;
+}
+.benefits__item:last-child {
+  padding-right: 0;
+}
+.benefits__item:last-child:before {
+  display: none;
+}

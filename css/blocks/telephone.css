@@ -1,0 +1,12 @@
+.telephone {
+  font-size: 18px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left: 46px;
+}
+.telephone .telephone__pic {
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+}

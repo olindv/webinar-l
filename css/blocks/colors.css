@@ -1,0 +1,7 @@
+.colors-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.colors-container .colors {
+  display: flex;
+}

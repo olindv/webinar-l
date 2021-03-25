@@ -1,0 +1,12 @@
+.rewiews-section {
+  position: relative;
+}
+.rewiews-section:before {
+  content: url("../../images/decor/Vector 2.png");
+  display: block;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  bottom: -7px;
+  left: 213px;
+}

@@ -1,0 +1,74 @@
+$containerWidth: 1100px;
+$baseFontSize: 16px;
+
+//breakpoints
+
+$tablets: 768px;
+$phones: 480px;
+
+
+//colors
+
+$grey: #F5F5F5;
+$red: #E01F3D;
+
+//priority
+
+$z-fixed-menu: 100;
+
+@import 'scss/blocks/media.scss';
+
+//normalize
+
+@import url('/scss/layout/normalize.css');
+
+//setups
+
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&family=Play:wght@400;700&display=swap');
+@import 'scss/layout/base.scss';
+
+//components
+
+@import 'scss/blocks/hero.scss';
+@import 'scss/blocks/header.scss';
+@import 'scss/blocks/options.scss';
+@import 'scss/blocks/option.scss';
+@import 'scss/blocks/logo.scss';
+@import 'scss/blocks/btn.scss';
+@import 'scss/blocks/telephone.scss';
+@import 'scss/blocks/menu.scss';
+@import 'scss/blocks/section.scss';
+@import 'scss/blocks/headline.scss';
+@import 'scss/blocks/benefits.scss';
+@import 'scss/blocks/benefit.scss';
+@import 'scss/blocks/benefits-section.scss';
+@import 'scss/blocks/reviews.scss';
+@import 'scss/blocks/reviews-section.scss';
+@import 'scss/blocks/interactive-avatar.scss';
+@import 'scss/blocks/form-section.scss';
+@import 'scss/blocks/form.scss';
+@import 'scss/blocks/radio.scss';
+@import 'scss/blocks/fixed-menu.scss';
+@import 'scss/blocks/hamburger.scss';
+@import 'scss/blocks/map-section.scss';
+@import 'scss/blocks/footer.scss';
+@import 'scss/blocks/contacts.scss';
+@import 'scss/blocks/socials.scss';
+@import 'scss/blocks/prices-section.scss';
+// @import 'scss/blocks/slider.scss';
+@import 'scss/blocks/dropdown.scss';
+@import 'scss/blocks/price.scss';
+@import 'scss/blocks/price-desc.scss';
+@import 'scss/blocks/properties.scss';
+@import 'scss/blocks/parameters.scss';
+@import 'scss/blocks/arrow.scss';
+@import 'scss/blocks/team.scss';
+@import 'scss/blocks/modal.scss';
+@import 'scss/blocks/colors.scss';
+@import 'scss/blocks/player.scss';
+@import 'scss/blocks/close.scss';
+@import 'scss/blocks/bx-slider.scss';
+@import 'scss/blocks/popup.scss';
+
+

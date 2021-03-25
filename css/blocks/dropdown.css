@@ -1,0 +1,6 @@
+.dropdown {
+  width: rem(91px);
+  height: rem(91px);
+  background-color: #9A9A9A;
+  border-radius: 4px;
+}

@@ -1,0 +1,10 @@
+.options__pic {
+  display: block;
+  height: 40px;
+  width: 40px;
+  margin-right: 12px;
+}
+
+.options__text {
+  line-height: 1.125;
+}
